@@ -26,6 +26,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Class::Method::Modifiers" : "0",
             "Role::Tiny" : "0",
             "perl" : "5.006"
          }
@@ -34,7 +35,7 @@
    "provides" : {
       "Rose::DBx::Role::NestTransaction" : {
          "file" : "lib/Rose/DBx/Role/NestTransaction.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -43,5 +44,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

@@ -6,6 +6,7 @@ WriteMakefile
   'NAME' => 'Rose::DBx::Role::NestTransaction',
   'VERSION_FROM' => 'lib/Rose/DBx/Role/NestTransaction.pm',
   'PREREQ_PM' => {
+                   'Class::Method::Modifiers' => 0,
                    'Role::Tiny' => 0,
                    'Test::More' => 0
                  },
